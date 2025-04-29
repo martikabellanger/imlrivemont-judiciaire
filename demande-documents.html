@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demande de documents - Hôpital de Rivemont</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script-demande.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo-hopital.png" alt="Logo Hôpital" class="logo">
+    </header>
+    <main>
+        <h1>Demande de documents médicaux</h1>
+        <form id="demande-form">
+            <input type="text" id="ref-medecin-doc" placeholder="Référence médecin" required>
+            <input type="text" id="cle-auth-doc" placeholder="Clé d'authentification" required>
+            <button type="submit">Valider</button>
+        </form>
+        <p id="error-message-doc" class="error"></p>
+    </main>
+</body>
+</html>

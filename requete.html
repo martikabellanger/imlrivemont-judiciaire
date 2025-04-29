@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faire une requête - Hôpital de Rivemont</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script-requete.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo-hopital.png" alt="Logo Hôpital" class="logo">
+    </header>
+    <main>
+        <h1>Requête judiciaire</h1>
+        <form id="requete-form">
+            <input type="text" id="ref-dossier" placeholder="Référence dossier" required>
+            <input type="text" id="ref-medecin" placeholder="Référence médecin" required>
+            <input type="text" id="cle-auth" placeholder="Clé d'authentification" required>
+            <button type="submit">Valider</button>
+        </form>
+        <p id="error-message" class="error"></p>
+        <p class="info">Pour toute demande hors cadre judiciaire, <a href="demande-documents.html">cliquez ici</a>.</p>
+    </main>
+</body>
+</html>
