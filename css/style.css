@@ -4,6 +4,17 @@ body {
     padding: 0;
     text-align: center;
 }
+
+h1 {
+    font-size: 1.6rem; /* ou 24px si tu préfères */
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.3rem; /* facultatif si tu en utilises */
+    margin-bottom: 15px;
+}
+
 header {
     background: #007acc;
     padding: 10px;
